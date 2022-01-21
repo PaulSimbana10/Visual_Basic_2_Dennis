@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modelo.Colegio
+namespace Modelo.Entidades
 {
     public class Configuracion 
 
@@ -16,6 +16,11 @@ namespace Modelo.Colegio
         public double valormaxayuda { get; set; }
         public string EscuelaN { get; set; }
         public DateTime DiaMax { get; set; }
+
+
+
+        //relacion con perdiodos
+
         public Periodo PeriodoV { get; set; }
         public int periodoidV { get; set; }
 
