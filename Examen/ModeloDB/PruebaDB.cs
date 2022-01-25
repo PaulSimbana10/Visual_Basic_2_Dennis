@@ -11,9 +11,9 @@ namespace ModeloDB
     public class PruebaDB : DbContext 
     {
 
-        public DbSet<Actor> actors { get; set; }
+        public DbSet<payment> actors { get; set; }
         public DbSet<Category> categories { get; set; }
-        public DbSet<Film_Actor> film_Actors { get; set; }
+        public DbSet<payment> film_Actors { get; set; }
 
 
 

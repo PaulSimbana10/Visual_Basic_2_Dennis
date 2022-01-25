@@ -27,19 +27,19 @@ namespace consola
 
 
 
-            Actor act1 = new Actor()
+            payment act1 = new payment()
             {
                 firstName = "Paulo",
                 lastName = "Marquez",
                 lastUpdate = "Flash"
             };
-            Actor act2 = new Actor()
+            payment act2 = new payment()
             {
                 firstName = "Gabriela",
                 lastName = "Mosquera",
                 lastUpdate = "Luci"
             };
-            Actor act3 = new Actor()
+            payment act3 = new payment()
             {
                 firstName = "Emilio",
                 lastName = "Granda",
@@ -58,7 +58,7 @@ namespace consola
             };
 
 
-            Film film1 = new Film()
+            address film1 = new address()
             {
                 title = "Flash",
                 description = "Tierras infinitas",
@@ -79,7 +79,7 @@ namespace consola
 
 
             };
-            Film film2 = new Film()
+            address film2 = new address()
             {
                 title = "Luci",
                 description = "EL legado hacia un futuro cercano",
@@ -100,7 +100,7 @@ namespace consola
 
 
             };
-            Film film3 = new Film()
+            address film3 = new address()
             {
                 title = "Laberinto",
                 description = "El gran escape hacia una libertad",
