@@ -29,7 +29,7 @@ namespace WebAplicacionCredito
 
              services.AddDbContext<ModeloDB.ModeloDB>(options =>
               options.UseSqlServer(
-                  "Server = DESKTOP - 0R6KRQF; Initial Catalog = Credito; trusted_connection = true; ")
+                  "Server = ACER\\MSSQLSERVER2; initial catalog= Credito ; trusted_connection=true;")
                 );
             services.AddControllersWithViews();
         }
